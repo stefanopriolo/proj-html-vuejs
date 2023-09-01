@@ -18,4 +18,9 @@
 </template>
 
 <style lang="scss" scoped>
+.navbar {
+  z-index: auto;
+  position: fixed;
+  width: 100%;
+}
 </style>
