@@ -1,8 +1,10 @@
 <script>
 import TheBrands from "./TheBrands.vue"
+import TheOrganisations from "./TheOrganisations.vue"
 export default {
     components: {
-        TheBrands
+        TheBrands,
+        TheOrganisations
     },
     data() {
 
@@ -68,6 +70,7 @@ mounted(){
         </div>
     </section>
     <TheBrands></TheBrands>
+    <TheOrganisations></TheOrganisations>
     
 </template>
 

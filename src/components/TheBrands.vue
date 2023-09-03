@@ -19,7 +19,7 @@ export default {
         </div>
        <!-- Card ragazza con numero -->
         <div class="row p-4 pt-5">
-    <div class="card p-3 d-flex flex-row align-items-center justify-content-around">
+    <div class="card mb-5 p-3 d-flex flex-row align-items-center justify-content-around">
         <div class="user d-flex align-items-center gap-3">
         <img class="icon" src="../assets/images/marketing-expert-cta.png" alt="">
             <div class="usertext">
