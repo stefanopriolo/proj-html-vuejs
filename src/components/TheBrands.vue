@@ -42,6 +42,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@import '../../partials/variables';
 .container img:not(.icon) {
     width: 15%;
     
@@ -65,7 +66,7 @@ font-size: 1.5rem;
 }
 
 .orange {
-        color: #f86011;
+        color: $orange-site;
     }
 
 p {

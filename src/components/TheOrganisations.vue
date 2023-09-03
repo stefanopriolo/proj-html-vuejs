@@ -40,7 +40,7 @@ export default {
         </div>
     </div>
 </div>
-<div class="text-center pt-5">
+<div class="text-center pt-5 pb-5 mb-5">
     <button type="button" class="btn orangebg text-white p-2 ps-4 pe-4" 
             data-toggle="button" aria-pressed="false" autocomplete="off">
         <b>Read More Case Studies</b>
@@ -49,7 +49,9 @@ export default {
 </template>
 
 
-<style scoped>
+<style scoped lang="scss"> 
+@import '../../partials/variables';
+
 span {
     font-size: 4rem;
 }
@@ -64,6 +66,6 @@ hr.dashed {
     width: 50%;
 }
 .orangebg {
-        background-color: #f86011;
+        background-color: $orange-site;
     }
 </style>

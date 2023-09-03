@@ -1,10 +1,13 @@
 <script>
 import TheBrands from "./TheBrands.vue"
 import TheOrganisations from "./TheOrganisations.vue"
+import TheWorkwus from "./TheWorkwus.vue"
 export default {
     components: {
         TheBrands,
-        TheOrganisations
+        TheOrganisations,
+        TheWorkwus
+
     },
     data() {
 
@@ -71,17 +74,19 @@ mounted(){
     </section>
     <TheBrands></TheBrands>
     <TheOrganisations></TheOrganisations>
+    <TheWorkwus></TheWorkwus>
     
 </template>
 
 <style lang="scss" scoped>
+@import '../../partials/variables';
 .container img {
     width: 80%;
     
 }
 
 .orangebg {
-        background-color: #f86011;
+        background-color: $orange-site;
     }
 
 .title {
