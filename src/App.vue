@@ -2,10 +2,12 @@
 <script>
 import TheNavbar from "./components/TheNavbar.vue"
 import TheHero from "./components/TheHero.vue"
+import TheMain from "./components/TheMain.vue"
 export default {
   components: {
     TheNavbar,
-    TheHero
+    TheHero,
+    TheMain
   },
   data() {
 
@@ -19,6 +21,7 @@ export default {
 <template>
   <TheNavbar></TheNavbar>
   <TheHero></TheHero>
+  <TheMain></TheMain>
 </template>
 
 <style lang="scss">

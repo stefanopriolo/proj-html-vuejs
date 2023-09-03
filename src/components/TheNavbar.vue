@@ -19,8 +19,11 @@
 
 <style lang="scss" scoped>
 .navbar {
-  z-index: auto;
+  z-index: 1000;
   position: fixed;
   width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 </style>
