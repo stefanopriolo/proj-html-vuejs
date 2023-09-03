@@ -1,4 +1,16 @@
 <script>
+import TheBrands from "./TheBrands.vue"
+export default {
+    components: {
+        TheBrands
+    },
+    data() {
+
+},
+mounted(){
+
+}
+}
 </script>
 
 <template>
@@ -39,7 +51,7 @@
     </section>
 
     <section>
-        <div class="container p-5">
+        <div class="container p-5 pb-5">
             <div class="row pt-5 align-items-center">
                 <div class="col">
                     <img src="../assets/svg/img3.svg" alt="img">
@@ -55,6 +67,8 @@
             </div>
         </div>
     </section>
+    <TheBrands></TheBrands>
+    
 </template>
 
 <style lang="scss" scoped>
