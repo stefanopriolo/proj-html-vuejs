@@ -3,12 +3,14 @@ import TheBrands from "./TheBrands.vue"
 import TheOrganisations from "./TheOrganisations.vue"
 import TheWorkwus from "./TheWorkwus.vue"
 import TheQuote from "./TheQuote.vue"
+import TheExplore from "./TheExplore.vue"
 export default {
     components: {
         TheBrands,
         TheOrganisations,
         TheWorkwus,
-        TheQuote
+        TheQuote,
+        TheExplore
 
     },
     data() {
@@ -78,6 +80,7 @@ mounted(){
     <TheOrganisations></TheOrganisations>
     <TheWorkwus></TheWorkwus>
     <TheQuote></TheQuote>
+    <TheExplore></TheExplore>
     
 </template>
 
