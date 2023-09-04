@@ -2,11 +2,13 @@
 import TheBrands from "./TheBrands.vue"
 import TheOrganisations from "./TheOrganisations.vue"
 import TheWorkwus from "./TheWorkwus.vue"
+import TheQuote from "./TheQuote.vue"
 export default {
     components: {
         TheBrands,
         TheOrganisations,
-        TheWorkwus
+        TheWorkwus,
+        TheQuote
 
     },
     data() {
@@ -75,6 +77,7 @@ mounted(){
     <TheBrands></TheBrands>
     <TheOrganisations></TheOrganisations>
     <TheWorkwus></TheWorkwus>
+    <TheQuote></TheQuote>
     
 </template>
 
