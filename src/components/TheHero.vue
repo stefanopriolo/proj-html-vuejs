@@ -8,7 +8,7 @@
                 <div class="col-7 pt-5">
                     <h1 class="display-1"><b>Unlock Your Online Growth Potential</b></h1>
                 <h2>Online marketing to secure customer retention, leads, and sales. We focus on the bigger picture.</h2>
-                <button class="btn btn-outline-success my-sm-0" type="submit">Free Quote</button>
+                <button type="button" class="btn btn-outline-dark p-3 mt-3">Our Services <i class=" arrow-icon fa-solid fa-arrow-right" style="color: #000000;"></i></button>
                 </div>
                 <div class="col-5 pt-5">
                     <div class="card card-xl position-absolute p-3">
@@ -43,6 +43,8 @@
 </template>
 
 <style lang="scss" scoped>
+@import '../../partials/variables';
+
 section {
     background-image: url(../assets/images/marketing-intro.jpg);
     background-size: cover;
@@ -55,11 +57,11 @@ section {
     }
 
     .orange {
-        color: #f86011;
+        color: $orange-site;
     }
     
     .orangebg {
-        background-color: #f86011;
+        background-color: $orange-site;
     }
 
     .smalltext {
@@ -70,7 +72,22 @@ section {
     width: 400px; 
     height: auto; 
 }
+
+.btn-outline-dark {
+    background-color: #fff; 
+    color: #000; 
+    border-color: #000;
+    transition: background-color 0.3s, color 0.3s; 
+  }
+
+  .btn-outline-dark:hover {
+    background-color: transparent; 
+    color: #fff; 
+    border-color: #fff;
+  }
+
+  .btn-outline-dark:hover .arrow-icon {
+    color: #fff; 
+  }
 }
-
-
 </style>

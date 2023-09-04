@@ -30,7 +30,7 @@ export default {
     </div>          
      <p>Drive Leads and Sales with Avada</p>
     <form class="form-inline my-2 my-lg-0">
-        <button class="btn btn-outline-success my-2 my-sm-0 btn-lg" type="submit"><span class="orange"><b><i class="fa-solid fa-phone pe-3 orange"></i>(555) 802-1234</b></span></button>
+        <button class="btn btn-outline my-2 my-sm-0 btn-lg orange" type="submit"><i class="fa-solid fa-phone pe-3" style="color: #f86011;"></i>(555) 802-1234</button>
     </form>
     </div>
     
@@ -75,5 +75,16 @@ p {
 
 h1 {
     font-size: 3rem;
+}
+
+.orange {
+  color: $orange-site;
+  background-color: #f862112f;
+}
+
+.btn.orange:hover {
+  background-color: $orange-site; 
+  color: white;
+  transition: background-color 0.3s, color 0.3s; 
 }
 </style>
