@@ -55,6 +55,32 @@ export default {
             </div>
         </div>
     </div>
+    <h2 class="text-center pt-5">Awards</h2>
+    <div class="row pt-5"> 
+        <div class="col-3 text-center">
+            <img id="icon" src="../assets/images/award-a.png" alt="">
+            <p class="m-0">Winner Seo Master MAGT </p>
+            <p>Smart Start Award 2017</p>
+        </div>
+        <div class="col-3 text-center">
+            <img id="icon" src="../assets/images/award-b.png" alt="">
+            <p class="m-0">Top Social Media Agencies </p>
+            <p>Next Partner 2018</p>
+        </div>
+        <div class="col-3 text-center">
+            <img id="icon" src="../assets/images/award-c.png" alt="">
+            <p class="m-0">10 Fastest Growing Abstract </p>
+            <p>Solution Providers 2019</p>
+        </div>
+        <div class="col-3 text-center">
+            <img id="icon" src="../assets/images/award-d.png" alt="">
+            <p class="m-0">National Excellence Agencie</p>
+            <p>Award Winner 2020</p>
+        </div>
+       
+        
+    </div>
+    
 
 </div>
     </section>
