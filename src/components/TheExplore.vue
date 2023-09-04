@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <section class="pt-5">
+    <section class="pt-5 pb-5">
         <div class="container pt-5">
             <div class="row pb-5">
                 <div class="col-6">
@@ -18,7 +18,7 @@ export default {
                     </button>      
                 </div>            
             </div>
-            <div class="row gap-4 pt-5">
+            <div class="row gap-4 pt-5 pb-5">
                 <div class="col">
                     <img class="pb-4" src="../assets/images/blog-posts-6-1200x800.jpg" alt="">
                     <h2>Marketing Tips And Tricks For Your Website</h2>
